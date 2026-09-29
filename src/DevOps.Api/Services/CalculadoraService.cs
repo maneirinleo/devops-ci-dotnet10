@@ -4,7 +4,9 @@ public class CalculadoraService
 {
     public int Somar(int primeiroNumero, int segundoNumero)
     {
-        return primeiroNumero + segundoNumero;
+        // Erro induzido
+        return primeiroNumero - segundoNumero;    
+
     }
     public bool EhPar(int numero)
     {
